@@ -378,7 +378,10 @@ header .mega-menu .links li i{
     flex-direction:column;
   }
   
-   
+   .landing .image img{
+        display: block;
+    }
+
 
     .landing .text{
         text-align: center;
@@ -390,6 +393,10 @@ header .mega-menu .links li i{
 }
 
 @media(max-width:767px){
+
+  .landing .container{
+        min-height: calc(70vh - 70px);
+  }
     .landing .text h1{
         font-size: 28px;
     }
