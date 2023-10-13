@@ -372,12 +372,19 @@ header .mega-menu .links li i{
 }
 
 @media(max-width:991px){
+
+
+  .landing .container {
+    flex-direction:column;
+  }
+  
     .landing .image img{
         display: none;
     }
 
     .landing .text{
         text-align: center;
+        margin-top:100px
     }
     .landing .text p{
         margin: 10px auto;
