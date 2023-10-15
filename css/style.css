@@ -678,6 +678,10 @@ header .mega-menu .links li i{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
   }
+
+.team svg{
+    width: 60px;
+  }
   .team .box {
     position: relative;
   }
